@@ -150,3 +150,37 @@ footer {
 footer p + p {
   margin-top: 8px;
 }
+
+/* ===== Sobre ===== */
+.sobre {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.sobre h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.sobre p {
+  color: #bbb;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* ===== Footer: redes sociais e créditos ===== */
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 16px 0;
+}
+
+footer .creditos {
+  font-size: 12px;
+  color: #666;
+}

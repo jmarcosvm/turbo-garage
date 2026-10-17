@@ -4,6 +4,7 @@ function Header({ itensNoCarrinho }) {
       <strong>Turbo Garage</strong>
       <nav>
         <a href="#carros">Carros</a>
+        <a href="#sobre">Sobre</a>
         <a href="#contato">Contato</a>
       </nav>
       <span>🛒 {itensNoCarrinho}</span>
