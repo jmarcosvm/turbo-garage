@@ -2,6 +2,8 @@
 
 Loja virtual de supercarros que fiz para aprender React. A página mostra seis carros, da Ferrari SF90 ao Koenigsegg Jesko, cada um com foto, potência e preço. O botão Comprar soma o carro no contador do carrinho, lá no topo da página.
 
+Veja a loja funcionando em [turbo-garage-wheat.vercel.app](https://turbo-garage-wheat.vercel.app/).
+
 ![Tela inicial da Turbo Garage](docs/tela-inicial.png)
 
 ## O que a loja faz
