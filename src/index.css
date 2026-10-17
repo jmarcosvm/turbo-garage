@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background: #0d0d0d;
+  color: #f2f2f2;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ===== Header ===== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: #000;
+  border-bottom: 2px solid #e10600;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header strong,
+header span {
+  flex: 1;
+}
+
+header strong {
+  font-size: 22px;
+}
+
+header span {
+  text-align: right;
+}
+
+nav a {
+  margin: 0 12px;
+}
+
+nav a:hover {
+  color: #e10600;
+}
+
+/* ===== Banner ===== */
+.banner {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #1a1a1a, #3a0000);
+}
+
+.banner h1 {
+  font-size: 44px;
+  margin-bottom: 12px;
+}
+
+.banner p {
+  color: #bbb;
+  font-size: 18px;
+}
+
+/* ===== Lista de carros ===== */
+#carros {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+#carros h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+/* ===== Card do carro ===== */
+article {
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+article:hover {
+  transform: translateY(-6px);
+}
+
+article img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+article h3,
+article p {
+  padding: 0 16px;
+}
+
+article h3 {
+  margin-top: 16px;
+}
+
+article p {
+  color: #bbb;
+  margin-top: 6px;
+}
+
+/* ===== Botão ===== */
+button {
+  display: block;
+  width: calc(100% - 32px);
+  margin: 16px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: #e10600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff2a1f;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 32px 20px;
+  background: #000;
+  color: #888;
+  font-size: 14px;
+  border-top: 2px solid #e10600;
+}
+
+footer p + p {
+  margin-top: 8px;
+}
